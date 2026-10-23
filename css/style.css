@@ -61,12 +61,15 @@ nav {
     gap: 15px;
 }
 
-#mainMain {
-    grid-column: 1/6;
+main#principal {
+    grid-column: 1/7;
     display: grid;
+    grid-template-columns: 10% auto auto auto auto 10%;
+    grid-template-rows: auto auto auto auto auto auto;
 }
 
 section {
+    grid-column: 1/8;
     width: 90%;
     
     margin: auto;
@@ -123,7 +126,6 @@ div.fotosFlex {
     margin-bottom: 20px;
     grid-column: 1/7;
     gap: 20px;
-
 
     display: flex;
     flex-direction: column;

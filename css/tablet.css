@@ -1,0 +1,28 @@
+p {
+    font-size: 0.8em;
+    padding: 6px;
+}
+
+section#sobreMim {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+section#hobbies {
+    grid-column: 4/7;
+    grid-row: 1/2;
+}
+
+section#formacao {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+section#conhecimento {
+    grid-column: 4/7;
+    grid-row: 2/3;
+}
+
+div.fotosGrid {
+    display: flex;
+}
